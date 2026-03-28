@@ -9,8 +9,7 @@ Java 25 instalado
 
 ### 1 - Clonar o repositorio
 ```bash
-git clone https://github.com/EnricoGermano/AV1-TPII.git
-cd AV1-TPII
+git clone https://github.com/EnricoGermano/AV1-WEBIII.git
 ```
 
 ### 2 - Compilar e rodar a aplicação
