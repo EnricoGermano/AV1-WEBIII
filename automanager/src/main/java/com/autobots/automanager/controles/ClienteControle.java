@@ -55,4 +55,9 @@ public class ClienteControle {
 	public void excluirCliente(@PathVariable long id) {
 		repositorio.findById(id).ifPresent(repositorio::delete);
 	}
+
+	@GetMapping("/resposta")
+	public int resposta() {
+		return 42;
+	}
 }

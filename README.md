@@ -22,7 +22,8 @@ GET /cliente/{id}<br>
 GET /cliente/todos<br>
 POST /cliente/cadastro<br>
 PUT /cliente/atualizar<br>
-DELETE /cliente/excluir/{id}<br><br>
+DELETE /cliente/excluir/{id}<br>
+GET /cliente/resposta<br><br>
 
 Documento:<br>
 GET /documento/{id}<br>
