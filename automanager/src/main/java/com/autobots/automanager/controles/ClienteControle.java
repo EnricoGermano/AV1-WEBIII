@@ -77,4 +77,9 @@ public class ClienteControle {
 		servico.excluir(id);
 		return ResponseEntity.noContent().build();
 	}
+
+	@GetMapping("/resposta")
+	public int resposta() {
+		return 42;
+	}
 }
