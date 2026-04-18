@@ -9,8 +9,8 @@ Java 25 instalado
 
 ### 1 - Clonar o repositorio
 ```bash
-git clone https://github.com/EnricoGermano/AV1-TPII.git
-cd AV1-TPII
+git clone https://github.com/EnricoGermano/AV2-TPII.git
+cd AV2-TPII
 ```
 
 ### 2 - Compilar e rodar a aplicação
@@ -18,23 +18,33 @@ cd AV1-TPII
 URL Base: http://localhost:8080 <br><br>
 Endpoints: <br>
 Cliente:<br>
-GET /cliente/{id}<br>
-GET /cliente/todos<br>
-POST /cliente/cadastro<br>
-PUT /cliente/atualizar<br>
-DELETE /cliente/excluir/{id}<br><br>
+GET /clientes/{id}<br>
+GET /clientes<br>
+POST /clientes<br>
+PUT /clientes/{id}<br>
+DELETE /clientes/{id}<br><br>
 
 Documento:<br>
-GET /documento/{id}<br>
-GET /documento/todos<br>
-POST /documento/cadastro<br>
-PUT /documento/atualizar<br>
-DELETE /documento/excluir/{id}<br><br>
+GET /documentos/{id}<br>
+GET /documentos<br>
+POST /documentos<br>
+PUT /documentos/{id}<br>
+DELETE /documentos/{id}<br><br>
 
 Endereco:<br>
-GET /endereco/{id}<br>
-GET /endereco/todos<br>
-POST /endereco/cadastro<br>
-PUT /endereco/atualizar<br>
-DELETE /endereco/excluir/{id}<br><br>
+GET /enderecos/{id}<br>
+GET /enderecos<br>
+POST /enderecos<br>
+PUT /enderecos/{id}<br>
+DELETE /enderecos/{id}<br><br>
+
+Telefone:<br>
+GET /telefones/{id}<br>
+GET /telefones<br>
+POST /telefones<br>
+PUT /telefones/{id}<br>
+DELETE /telefones/{id}<br>
+
+GET /gerson<br><br>
+
 
